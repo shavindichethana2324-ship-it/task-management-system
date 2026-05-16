@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task Management App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Task Management System</h1>
+
+    <!-- REGISTER -->
+
+    <h2>Register</h2>
+
+    <input type="text" id="regUsername" placeholder="Enter Username">
+
+    <input type="password" id="regPassword" placeholder="Enter Password">
+
+    <button onclick="register()">Register</button>
+
+    <hr>
+
+    <!-- LOGIN -->
+
+    <h2>Login</h2>
+
+    <input type="text" id="loginUsername" placeholder="Enter Username">
+
+    <input type="password" id="loginPassword" placeholder="Enter Password">
+
+    <button onclick="login()">Login</button>
+
+    <hr>
+
+    <!-- ADD TASK -->
+
+    <h2>Add Task</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter Task">
+
+    <button onclick="addTask()">Add Task</button>
+
+    <hr>
+
+    <!-- GET TASKS -->
+
+    <h2>Tasks</h2>
+
+    <button onclick="getTasks()">Load Tasks</button>
+
+    <ul id="taskList"></ul>
+
+    <hr>
+
+    <!-- LOGOUT -->
+
+    <button onclick="logout()">Logout</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
