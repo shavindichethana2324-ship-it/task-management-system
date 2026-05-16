@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <div class="navbar">
+
+        <h1>Task Dashboard</h1>
+
+        <button class="logout-btn" onclick="logout()">Logout</button>
+
+    </div>
+
+    <div class="task-box">
+
+        <h2>Add New Task</h2>
+
+        <input type="text" id="taskInput" placeholder="Enter Your Task">
+
+        <button onclick="addTask()">Add Task</button>
+
+        <button onclick="getTasks()">Load Tasks</button>
+
+    </div>
+
+    <div class="tasks-section">
+
+        <h2>Your Tasks</h2>
+
+        <ul id="taskList"></ul>
+
+</html>
